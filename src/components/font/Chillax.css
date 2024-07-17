@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Chillax';
+    src: url('//cdn.fontshare.com/wf/SVYQ5C47KQ7Q4A6527WD7JA6PUG6HK55/I2UFEJWWBDNRZ5HKD3V4ASSUY3YYEMOJ/JEWCW7XRBNTGIANRIQOD4DIZJG4HEHFJ.woff2') format('woff2'),
+         url('//cdn.fontshare.com/wf/SVYQ5C47KQ7Q4A6527WD7JA6PUG6HK55/I2UFEJWWBDNRZ5HKD3V4ASSUY3YYEMOJ/JEWCW7XRBNTGIANRIQOD4DIZJG4HEHFJ.woff') format('woff'),
+         url('//cdn.fontshare.com/wf/SVYQ5C47KQ7Q4A6527WD7JA6PUG6HK55/I2UFEJWWBDNRZ5HKD3V4ASSUY3YYEMOJ/JEWCW7XRBNTGIANRIQOD4DIZJG4HEHFJ.ttf') format('truetype');
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Chillax';
+    src: url('//cdn.fontshare.com/wf/WSPWZKQM26GGKSLVGSP2CFUHUMS5BCYQ/UE3YJANJM3SE3IWT4TOMYQVMLCQ6GZGG/XESIRBQU62YFBC7YQZI6D2NT5CNZ4PPU.woff2') format('woff2'),
+         url('//cdn.fontshare.com/wf/WSPWZKQM26GGKSLVGSP2CFUHUMS5BCYQ/UE3YJANJM3SE3IWT4TOMYQVMLCQ6GZGG/XESIRBQU62YFBC7YQZI6D2NT5CNZ4PPU.woff') format('woff'),
+         url('//cdn.fontshare.com/wf/WSPWZKQM26GGKSLVGSP2CFUHUMS5BCYQ/UE3YJANJM3SE3IWT4TOMYQVMLCQ6GZGG/XESIRBQU62YFBC7YQZI6D2NT5CNZ4PPU.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Chillax';
+    src: url('//cdn.fontshare.com/wf/XASL35KKT35X3ACCBCOQKKABSR6AT3FX/6MU5BWUUPHCFUHM2F3E3QPQGKXCVBUOO/WZY5PMNTII6NKOB2TTIAX7QVAWMSY2DQ.woff2') format('woff2'),
+         url('//cdn.fontshare.com/wf/XASL35KKT35X3ACCBCOQKKABSR6AT3FX/6MU5BWUUPHCFUHM2F3E3QPQGKXCVBUOO/WZY5PMNTII6NKOB2TTIAX7QVAWMSY2DQ.woff') format('woff'),
+         url('//cdn.fontshare.com/wf/XASL35KKT35X3ACCBCOQKKABSR6AT3FX/6MU5BWUUPHCFUHM2F3E3QPQGKXCVBUOO/WZY5PMNTII6NKOB2TTIAX7QVAWMSY2DQ.ttf') format('truetype');
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Chillax';
+    src: url('//cdn.fontshare.com/wf/ZYDQ23QUC5RIWZP2XNQDB6EQIKJAJRWI/OQWULF7QT4HTMBH6W3XY6DESOSZLWT3L/7L7IIHAKMJC3Z2MTNHMMKSRMMTKZN4OJ.woff2') format('woff2'),
+         url('//cdn.fontshare.com/wf/ZYDQ23QUC5RIWZP2XNQDB6EQIKJAJRWI/OQWULF7QT4HTMBH6W3XY6DESOSZLWT3L/7L7IIHAKMJC3Z2MTNHMMKSRMMTKZN4OJ.woff') format('woff'),
+         url('//cdn.fontshare.com/wf/ZYDQ23QUC5RIWZP2XNQDB6EQIKJAJRWI/OQWULF7QT4HTMBH6W3XY6DESOSZLWT3L/7L7IIHAKMJC3Z2MTNHMMKSRMMTKZN4OJ.ttf') format('truetype');
+    font-weight: 200 700;
+    font-display: swap;
+    font-style: normal;
+  }
+  *{
+    font-family: 'Chillax' , sans-serif;
+  }
+  

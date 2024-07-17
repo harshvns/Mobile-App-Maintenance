@@ -1,0 +1,26 @@
+.Faq{
+    padding-left: 100px;
+    border: none;
+}
+.faq-question{
+    border: none;
+    background-color: white;
+    padding-top: 20px;
+    font-size: 23px;
+    color: rgb(4, 11, 75);
+    font-weight: 500;
+}
+.faq{
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.faq-answer{
+    font-size: 17px;
+    padding-left: 40px;
+}
+.faq-question::after{
+    content: '';
+    display: block;
+    border-top: 1px solid gray;
+    width: 100%;
+}

@@ -1,0 +1,77 @@
+.P5img{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-left: 80px;
+    padding-right: 80px;
+    gap: 2rem;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+.p5img{
+    width: 300px;
+    font-size: 23px;
+    font-weight: 400;
+}
+.Quote{
+    background-color: rgba(114, 210, 210, 0.58);
+    padding-bottom: 55px;
+    /* color: white; */
+    font-weight: 450;
+    text-align: center;
+
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.QuoteHeading{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 0%;
+}
+.fill{
+    height: 35px;
+    border-radius: 5px;
+    /* border: none; */
+    border: 1px solid rgb(172, 167, 167);
+    border-radius: 0;
+    padding-left: 1rem;
+}
+
+.started{
+    background-color: rgb(65, 26, 110);
+    color: wheat;
+    height: 2.5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.started {
+    color: whitesmoke;
+    background-color: #3b7fbf;
+    cursor: pointer;
+    width: 120%;
+    /* height: 32px; */
+    border-radius: 5px;
+    border: 1.3px solid rgb(223, 223, 223);
+    font-size: 18px;
+    font-weight: 450;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid gray;
+
+    /* transition: color 0.3s; */
+}
+
+.started:hover{
+    background-color: white;
+    color: #3b7fbf;
+}
