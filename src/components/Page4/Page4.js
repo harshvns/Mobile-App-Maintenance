@@ -30,10 +30,10 @@ const Page4 = () => {
         statsCounted = true;
 
         const stats = [
-          { selector: '.stat:nth-child(1) .count', finalValue: 400 },
-          { selector: '.stat:nth-child(2) .count', finalValue: 225 },
-          { selector: '.stat:nth-child(3) .count', finalValue: 12 },
-          { selector: '.stat:nth-child(4) .count', finalValue: 150 }
+          { selector: '.stat:nth-child(1) .count', finalValue: 98 },
+          { selector: '.stat:nth-child(2) .count', finalValue: 340 },
+          { selector: '.stat:nth-child(3) .count', finalValue: 4 },
+          { selector: '.stat:nth-child(4) .count', finalValue: 8 }
         ];
 
         stats.forEach(stat => {
@@ -41,7 +41,7 @@ const Page4 = () => {
           const initialValue = parseInt(countElement.textContent, 10);
 
           let startTime = null;
-          const duration = 1000;
+          const duration = 2000;
 
           const animateCount = timestamp => {
             if (!startTime) startTime = timestamp;
@@ -77,7 +77,7 @@ const Page4 = () => {
       </div>
 
       <div className='Tech'>
-        <div className='heading3'>Mobile App Maintenance Features</div>
+        <div className='heading2'>Mobile App Maintenance Features</div>
         <div className='heading2text'>Offering app maintenance services for iOS & Android based on comprehensive and persistent strategies. Our immensely well-defined features provide superior user experience when accomplishing our customer’s requirement.</div>
       </div>
 
@@ -95,7 +95,7 @@ const Page4 = () => {
       </div>
 
       <div className='Tech'>
-        <p className='heading3'>Why Choose Mobisoft Infotech?</p>
+        <p className='heading2'>Why Choose Mobisoft Infotech?</p>
         <p className='heading2text'>Providing a host of benefits that make your mobile app maintenance and support task hasslefree</p>
         <p className='heading2text'>Our Application Maintenance Services increase businesses’ operational expertise with an enterprise-grade mobile strategy to blend with systems, routes, and platforms.</p>
       </div>
@@ -103,25 +103,27 @@ const Page4 = () => {
       <div ref={statsRef} className="stats-section">
         <div className="stat">
           <span className="count">0</span>
-          <span className="label">Apps Launched</span>
+          <span className="count">%</span>
+          <span className="label">Clients Satisfied</span>
         </div>
         <div className="stat">
           <span className="count">0</span>
-          <span className="label">In-house Team</span>
+          <span className="count">+</span>
+          <span className="label">Successful Projects</span>
         </div>
         <div className="stat">
           <span className="count">0</span>
-          <span className="label">Years Experience</span>
+          <span className="count">M</span>
+          <span className="count">+</span>
+          <span className="label">Lines of Code</span>
         </div>
         <div className="stat">
           <span className="count">0</span>
-          <span className="label">Clientele</span>
+          <span className="count">+</span>
+          <span className="label">Years of Excellence</span>
         </div>
       </div>
-      <div className='Tech'>
-        <div className='heading3'>You Ask, We Answer</div>
-        <p className='heading2text'>Have mobile app maintenance questions in mind? We have the answers.</p>
-      </div>
+      
 
     </div>
   );

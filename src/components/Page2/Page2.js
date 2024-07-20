@@ -10,6 +10,7 @@ import client7 from '../assets/client7.png';
 import client8 from '../assets/client8.png';
 import client9 from '../assets/client9.png';
 import client10 from '../assets/client10.png';
+import Marquee from "react-fast-marquee";
 
 const Page2 = () => {
     const [activeService, setActiveService] = useState('monitoring'); // Default to monitoring service
@@ -23,6 +24,7 @@ const Page2 = () => {
     return (
         <div>
             <div className='client'>
+                <Marquee>
                 <img src={client1} height={100} alt="" />
                 <img src={client2} height={100} alt="" />
                 <img src={client3} height={100} alt="" />
@@ -33,6 +35,7 @@ const Page2 = () => {
                 <img src={client8} height={100} alt="" />
                 <img src={client9} height={100} alt="" />
                 <img src={client10} height={100} alt="" />
+                </Marquee>
             </div>
             <div className='p2'>
             <p className='heading2'>Our Mobile App Maintenance & Support Services</p>

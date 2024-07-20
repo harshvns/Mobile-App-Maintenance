@@ -14,7 +14,7 @@ function App() {
       <Page2/>
       <Page3/>
       <Page4/>
-      <FAQ/>
+      {/* <FAQ/> */}
       <Page5/>
     </div>
   );
