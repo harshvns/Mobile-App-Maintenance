@@ -68,18 +68,18 @@ input:focus{
     .form-text{
         /* width: 360px; */
         /* display: none; */
-        width: 370px;
+        width: 340px;
         padding-bottom: 0px;
     }
     .fill{
         /* display: none; */
-        width: 170px;
+        width: 150px;
     }
     .formfill{
 
         width: 200px;
     }
     .message{
-        width: 350px;
+        width: 310px;
     }
 }
