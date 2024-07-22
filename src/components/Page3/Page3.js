@@ -29,7 +29,7 @@ const Page3 = () => {
             <div>
             <div className='boximg'>
             <div className='modelimg'>
-            <img src={Contract} height={120} width={160} alt="" />
+            <img src={Contract} height={110} width={133} alt="" />
             </div>
             <div>
                 <h3>Annual Maintenance Contract</h3>
@@ -41,7 +41,7 @@ const Page3 = () => {
             <div>
             <div className='boximg'>
             <div className='modelimg'>
-            <img src={PartTime} height={120} width={160} alt="" />
+            <img src={PartTime} height={110} width={133} alt="" />
             </div>
             <div>
                 <h3>Part Time / Full Time Person</h3>
@@ -53,7 +53,7 @@ const Page3 = () => {
             <div>
             <div className='boximg'>
             <div className='modelimg'>
-            <img src={Maintenance} height={120} width={160} alt="" />
+            <img src={Maintenance} height={110} width={133} alt="" />
             </div>
             <div>
                 <h3>Scope Based Maintenance</h3>

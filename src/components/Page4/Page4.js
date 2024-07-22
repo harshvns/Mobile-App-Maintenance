@@ -83,7 +83,7 @@ const Page4 = () => {
 
       <div className='mobileApp'>
         <div className='P4img'>
-          <img src={mobileApp} height={360} width={400} alt="" />
+          <img src={mobileApp} height={360} width={350} alt="" />
         </div>
         <div>
           <ul>

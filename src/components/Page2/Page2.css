@@ -176,7 +176,7 @@
     }
     .section{
         width: 330px;
-        height: 660px;
+        height: auto;
     }
     .bullet{
         display: flex;

@@ -64,14 +64,14 @@
 
 .stats-section {
     display: flex;
-
+    text-align: center;
     padding: 40px 0;
-    padding-right: 20%;
+    /* padding-right: 20%; */
 }
 
 .stat {
     text-align: center;
-    padding-left: 12%;
+    /* padding-left: 12%; */
 }
 
 .count {
@@ -119,10 +119,12 @@
     /* padding: 40px 0; */
     /* padding-right: 20%; */
 }
-
+.P4img{
+    /* display: none; */
+}
 .stat {
     text-align: center;
-    /* padding-left: 12%; */
+    align-items: center;
     width: 100px;
 }
 

@@ -8,12 +8,12 @@ const Page5 = () => {
   return (
     <div>
         <div className='form'>
-            <div className='form-text'>
+             <div className='form-text'>
                 <p className='formpara'>Get in touch for detailed discussion</p>
                 <p className='formpara2'>Accelerate your business growth with our digital solutions and services</p>
             </div>
             <div className='formfill'>
-                <div className='formrow'>
+               <div className='formrow'>
                     <div>
                 <input className='fill' type='text' placeholder='Name'/>
                 </div>
@@ -30,7 +30,7 @@ const Page5 = () => {
                 </div>
 
             </div>
-        </div>
+        </div> 
     </div>
   )
 }
