@@ -28,7 +28,7 @@ const Page3 = () => {
         <div className='boximgrow'>
             <div>
             <div className='boximg'>
-            <div>
+            <div className='modelimg'>
             <img src={Contract} height={120} width={160} alt="" />
             </div>
             <div>
@@ -40,7 +40,7 @@ const Page3 = () => {
 
             <div>
             <div className='boximg'>
-            <div>
+            <div className='modelimg'>
             <img src={PartTime} height={120} width={160} alt="" />
             </div>
             <div>
@@ -52,7 +52,7 @@ const Page3 = () => {
 
             <div>
             <div className='boximg'>
-            <div>
+            <div className='modelimg'>
             <img src={Maintenance} height={120} width={160} alt="" />
             </div>
             <div>
@@ -67,11 +67,12 @@ const Page3 = () => {
             <p className='heading2text'>We have expertise in various cutting edge technologies and software tools to elevate your mobile app maintenance process.</p>
         </div>
         <div className='toolsicon'>
+        <div className='hide'>
         <img src={express} height={60} width={70} alt="" />
+        </div>
         <img src={laravel} height={60} width={70} alt="" />
         <img src={nodejs} height={60} width={70} alt="" />
         <img src={net} height={60} width={70} alt="" />
-        {/* <img src={python} height={60} width={140} alt="" /> */}
         <img src={nextjs} height={60} width={70} alt="" />
         <img src={vue} height={60} width={70} alt="" />
         <img src={spring} height={60} width={70} alt="" />
@@ -79,9 +80,10 @@ const Page3 = () => {
         <img src={cakephp} height={60} width={70} alt="" />
         <img src={mean} height={60} width={70} alt="" />
         <img src={angular} height={60} width={70} alt="" />
+        <div className='hide'>
         <img src={react} height={60} width={70} alt="" />
-        <img src={rxweb} height={60} width={70} alt="" />
-
+        {/* <img src={rxweb} height={60} width={70} alt="" /> */}
+        </div>
 
         </div>
     </div>

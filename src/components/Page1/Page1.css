@@ -54,3 +54,48 @@
   .heading2{
     
   }
+
+  @media (max-width: 768px) {
+    .Heading {
+        font-size: 30px;
+        padding-left: 0; /* Remove padding on smaller screens */
+    }
+    
+    .overlay-text {
+      position: absolute;
+      top: 110px; 
+      left: 270px; 
+      transform: translate(-50%, -50%);
+      /* background-color: rgba(0, 0, 0, 0.5);  */
+      color: white;
+      padding: 0px;
+      border-radius: 10px;
+      /* text-align: center; */
+      /* margin-left: 5px; */
+      margin-top: 0px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Heading {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .img1{
+      height: 200px;
+      width: 100%;
+    }
+    .overlay-text {
+      position: absolute;
+      top: 110px; 
+      left: 180px; 
+      transform: translate(-50%, -50%);
+      /* background-color: rgba(0, 0, 0, 0.5);  */
+      color: white;
+      padding: 0px;
+      border-radius: 10px;
+      /* text-align: center; */
+      /* margin-left: 5px; */
+      margin-top: 0px;
+    }
+}

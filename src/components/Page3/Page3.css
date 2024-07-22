@@ -40,7 +40,9 @@
     position: relative;
     background-color: #59a0e333;
 
+
 }
+
 
 /* .p3::before{
     content: "";
@@ -59,4 +61,26 @@
     font-size: 16px;
     font-weight: 500;
     color: #5e5e5ecb;
+}
+
+@media (max-width:768px){
+    .hide{
+        display: none;
+    }
+}
+@media (max-width: 480px){
+    .toolsicon{
+        display: none;
+    }
+    .modelimg{
+        /* display: none; */
+    }
+    .boximg{
+        width: 140px;
+        gap: 2rem;
+        padding-left: 10px;
+        padding-right: 10px;
+       
+        /* display: none; */
+    }
 }

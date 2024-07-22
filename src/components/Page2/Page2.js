@@ -13,8 +13,8 @@ import client10 from '../assets/client10.png';
 import Marquee from "react-fast-marquee";
 
 const Page2 = () => {
-    const [activeService, setActiveService] = useState('monitoring'); // Default to monitoring service
-    const [activeButton, setActiveButton] = useState('monitoring'); // Default to monitoring button
+    const [activeService, setActiveService] = useState('monitoring');
+    const [activeButton, setActiveButton] = useState('monitoring');
 
     const handleServiceClick = (service, buttonID) => {
         setActiveService(service);
